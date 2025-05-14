@@ -55,4 +55,4 @@ HTML: For creating the structure of the website, including product listings and 
 CSS: For styling the website with a clean, modern layout and responsive design.
 JavaScript: For adding interactivity, such as cart functionality and handling user interactions.
 
-GitHub Pages: For hosting the website.
+GitHub Pages: For hosting the website. https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Linda-riziki/
