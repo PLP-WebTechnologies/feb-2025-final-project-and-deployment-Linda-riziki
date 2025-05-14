@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GlowGear | Fashion Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>GlowGear</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Shop</a></li>
+        <li><a href="#newsletter">Subscribe</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Style That Shines ✨</h2>
+    <p>Discover premium fashion for bold individuals.</p>
+    <button onclick="scrollToProducts()">Shop Now</button>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/4066968/pexels-photo-4066968.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load" alt="Sneakers" />
+        <h3>Sneakers</h3>
+        <p>$49.99</p>
+        <button onclick="addToCart('Sneakers')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/12743405/pexels-photo-12743405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Backpack" />
+        <h3>Backpack</h3>
+        <p>$59.99</p>
+        <button onclick="addToCart('Backpack')">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/10837793/pexels-photo-10837793.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Sunglasses" />
+        <h3>Sunglasses</h3>
+        <p>$29.99</p>
+        <button onclick="addToCart('Sunglasses')">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="newsletter" class="newsletter">
+    <h2>Subscribe to Our Newsletter</h2>
+    <form id="subscribeForm">
+      <input type="email" id="email" placeholder="Enter your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+    <p id="confirmation"></p>
+  </section>
+
+  <footer id="contact">
+    <p>Contact us at: hello@glowgear.com</p>
+    <p>© 2025 GlowGear. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
